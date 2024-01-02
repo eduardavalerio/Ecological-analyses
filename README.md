@@ -8,7 +8,7 @@ I'm using codes to perform beta diversity, NMDS, ANOSIM, dendogram, genetic dist
 With these ecological analyses, it is possible to determine the distribution of these species by location and bathymetry and comparing different composition communities through similarity indices and beta diversity. 
 Furthermore, using a FASTA file containig the COI sequences of species it's possible to create a phylogenetic tree and calculate the genetic distance from these species.
 
-Here are codes to perform all these analyses and a LaTeX file with all my observations about the results.
+Here are codes to perform all these analyses.
 
 :)
 
