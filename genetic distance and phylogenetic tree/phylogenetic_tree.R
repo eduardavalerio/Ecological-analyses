@@ -103,7 +103,12 @@ plotBS(midpoint(fit_mt$tree), bs, p = 70, type="p", main="Standard bootstrap")
 
 
 ### salvar a árvore
-write.tree(fit_mt$tree, "porifera.tree")
+tree <- write.tree(fit_mt$tree, "porifera.tree")
+
+#salvar árvore como imagem tiff
+tiff("arvore_porifera_coi.tiff", width = 20, height = 10, units = 'in', res = 300)
+plot(tree) # Make plot
+dev.off()
 
 ##EDIÇÃO DA ÁRVORE 
 #apos salvar a árvore é possível edita-la usando o programa FigTree.
