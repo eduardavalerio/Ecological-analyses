@@ -1,8 +1,16 @@
-# DISTÂNCIA GENÉTICA E ÁRVORE FILOGENÉTICA 
-# Script para performar distância genética e árvore filogenética entre espécies 
-# a partir de sequências de marcadores moleculares.
+### --------------------------------------------------------------------------------------------------
+#  Genetic distance and Phylogenetic tree based on the molecular markers COI, 18s and 28s
+#
+#   Author : Rodrigo Rodrigues Domingues, minor modif by Eduarda Valério de Jesus 
+#   Last updated 2024/01/17 
+#
+#   Script to perform genetic distance and phylogenetic tree between species based on 
+#   molecular markers of the species represented in genetic sequence databases of the 
+#   phylum Porifera
+### --------------------------------------------------------------------------------------------------
 
-#instalar e carregar os pacotes
+
+#install and load packages
 install.packges ("adegenet")
 install.packges ("ape")
 install.packges ("phangorn")
@@ -12,7 +20,12 @@ library(ape)
 library(phangorn)
 library(viridis)
 
-################################### distância genética ################################### 
+
+#-------------------#
+#--------COI--------#
+#-------------------#
+
+#------------------------------genetic distance---------------------------------------
 # A distância genética é baseada na diferença de uma sequência para outra, portanto,
 # quanto mais diferenciação entre nucleotídeos, maior será a distância genética entre
 # as espécies que estão sendo comparadas.
