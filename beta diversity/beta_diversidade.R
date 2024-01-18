@@ -1,57 +1,67 @@
-#métricas de beta diversidade - Bruno Vilela 
+### --------------------------------------------------------------------------------------------------
+#   Beta diversity based on bathymetry and locations
+#
+#   Author : Bruno Vilela, minor modif by Eduarda Valério de Jesus 
+#   Last updated 2024/01/18
+#
+#   Script to perform beta diversity based on differents dephts and locations on the coast
+#   of the state of São Paulo
+### --------------------------------------------------------------------------------------------------
 
-#beta diversidade: a extensão da mudança na composição da comunidade, ou grau de diferenciação da comunidade,
-#em relação a um gradiente ambiental.
-#variação da composição da comunidade de um local para outro.
 
-#beta diversidade -> razão entre a diversidade gama e a diversidade alfa 
-#ALFA = número de espécies distintas em uma comunidade, GAMA = número de espécies distintas no geral(todas comunidades analisadas)
-#se alfa = 5, gama = 5, beta será 1.
-#se alfa = 5, gama = 15, beta = 3. 
+#beta diversity metrics - Bruno Vilela (https://youtu.be/nNXuMbMC8kc?si=8TNzgv4C8z7F87B7)
 
-#SIMILARIDADE DE SORENSEN (BETAsor)
-#Padroniza os resultados entre 0 (composição totalmente distintas) e 1 (composição totalmente iguais).
-#FUNÇÃO: BETAsor = (BETA - 1)/(N - 1), sendo N = número de comunidades totais 
-#Turnover -> troca de espécies
-#Aninhamento -> perda de espécies
-#Turnover + aninhamento -> troca e perda de espécies
-#mesma beta diversidade pode representar diferentes situações
+#beta diversity: the extent of change in community composition, or degree of community differentiation,
+#in relation to an environmental gradient.
+#variation in community composition from one location to another.
 
-#SIMILARIDADE DE SIMPSON (BETAsim)
-#mede apenas a variação devido a troca de espécies (turnover)
+#beta diversity -> ratio between gamma diversity and alpha diversity
+#ALFA = number of distinct species in a community, GAMA = number of distinct species overall (all communities analyzed)
+#if alpha = 5, gamma = 5, beta will be 1.
+#if alpha = 5, gamma = 15, beta = 3.
 
-#para calcular o aninhamento -> BETAnes = BETAsor - BETAsim
+#SORENSEN SIMILARITY (BETAsor)
+#Standardizes the results between 0 (totally different composition) and 1 (totally the same composition).
+#FUNCTION: BETAsor = (BETA - 1)/(N - 1), where N = number of total communities
+#Turnover -> species exchange
+#Nestedness -> loss of species
+#Turnover + nestedness -> exchange and loss of species
+#same beta diversity can represent different situations
 
-#CALCULAR A BETA DIVERSIDADE 
+#SIMPSON SIMILARITY (BETAsim)
+#measures only the variation due to the exchange of species (turnover)
+
+#to calculate nestedness -> BETAnes = BETAsor - BETAsim
+
+#install and load packages 
 install.packages("tidyverse")
 install.packages("betapart")
 install.packages("wesanderson")
 install.packages("reshape2")
 install.packages('readxl')
-
 library(tidyverse)
 library(betapart)
 library(wesanderson)
 library(reshape2)
 library(readxl)
 
-######################################## batimetria ################################################
-#para ler os próprios dados 
+#------------------------------------bathymetry----------------------------------------
+#data
 batimetria<-read.csv("betadiv_por_bat.csv", header = TRUE, row.names = 1)
 batimetria<-as.matrix(batimetria)
 
-#Beta diversidade total
+#total beta diversity
 
-#usar esse código caso os dados sejam de abundância 
+#use this code if the data is about abundance 
 batimetria <- ifelse(batimetria > 0, 1, 0)
 
 beta_total <- beta.multi(batimetria, index.family = "sorensen")
 beta_total
 
-#Beta diversidade par a par 
+#beta diversity pairwise  
 beta_par <- beta.pair(batimetria, index.family = "sorensen")
 beta_par
-#para ver cada tipo de beta separadamente 
+#see the parameters of beta diversity separately
 beta_par$beta.sim
 beta_par$beta.sne
 beta_par$beta.sor
@@ -96,23 +106,23 @@ g <- ggplot(data = melted_cormat, aes(Var2, Var1, fill = value))+
 g
 dev.off()
 
-#################################################### localidades ######################################################
-#para ler os próprios dados 
+#------------------------------------locations----------------------------------------
+#data 
 localidades<-read.csv("betadiv_por_reg.csv", header = TRUE, row.names = 1)
 localidades<-as.matrix(localidades)
 
-#Beta diversidade total
+#total beta diversity
 
-#usar esse código caso os dados sejam de abundância 
+#use this code if the data is about abundance 
 localidades <- ifelse(localidades > 0, 1, 0)
 
 beta_total <- beta.multi(localidades, index.family = "sorensen")
 beta_total
 
-#Beta diversidade par a par 
+#beta diversity pairwise
 beta_par <- beta.pair(localidades, index.family = "sorensen")
 beta_par
-#para ver cada tipo de beta separadamente 
+#see the parameters of beta diversity separately
 beta_par$beta.sim
 beta_par$beta.sne
 beta_par$beta.sor
