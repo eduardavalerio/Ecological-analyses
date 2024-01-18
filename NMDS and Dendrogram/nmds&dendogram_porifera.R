@@ -1,11 +1,15 @@
-##################################################
-##################################################
-############ Dendrogram and NMDS #################
-##################################################
-##################################################
+### --------------------------------------------------------------------------------------------------
+#   Dendogram and Non-metric multidimensional scaling (NMDS) based on bathymetry and locations
+#
+#   Author : Rodrigo Rodrigues Domingues, minor modif by Eduarda Valério de Jesus 
+#   Last updated 2024/01/18
+#
+#   Script to perform dendogram and NMDS based on differents dephts and locations on the coast
+#   of the state of São Paulo
+### --------------------------------------------------------------------------------------------------
 
 
-###### Install packages #####
+#install and load packages
 install.packages('vegan')
 install.packages('ggplot2')
 install.packages('factoextra')
@@ -17,30 +21,24 @@ library (factoextra)
 library (dendextend)
 library (igraph)
 
-# load script_estatistica_metabarcoding
+#load script
 load("nmds&dendogram_porifera.R")
 
-################################ Batimetria ##################################
+#------------------------------------bathymetry----------------------------------------
 
-
-### input file
+#input file
 porifera_bat <- read.csv('nmds_por_bat.csv', header = T, row.names = 1)
 str (porifera_bat)
 head(porifera_bat)
 
 
 ### transform data into a matrix w/ presence absence information
-
-# bat.matrix<-as.matrix(bat)
+#bat.matrix<-as.matrix(bat)
 com_bat = porifera_bat[,3:ncol(porifera_bat)]
 m_com_bat = as.matrix(com_bat)
 
 
-######################
-######################
 ##### dendrogram #####
-######################
-######################
 
 clust_bat<-vegdist (m_com_bat, method = "jaccard")
 hc_bat <- hclust(clust_bat, method = "average")
@@ -57,15 +55,14 @@ tiff(file = "dendogram_bat.tiff", width=10, heigh=10,
 fviz_dend(hc_bat, cex = 1.5, main = "", lwd = 1.5, ylab = "")
 dev.off()
 
-### input file with Site
+#input file with Site
 porifera_bat <- read.csv('nmds_por_bat.csv', header = T)
 str (porifera_bat)
 head(porifera_bat)
 
 
 ### transform data into a matrix w/ presence absence information
-
-# bat.matrix<-as.matrix(bat)
+#bat.matrix<-as.matrix(bat)
 com_bat = porifera_bat[,3:ncol(porifera_bat)]
 m_com_bat = as.matrix(com_bat)
 
@@ -92,25 +89,21 @@ m_com_bat = as.matrix(com_bat)
 #          type = "phylogenic", repel = TRUE, main = "", lwd = 1.5, ylab = "")
 
 
-###############
-###############
-##### NMDS ####
-###############
-###############
+##### NMDS #####
 
-# run NMDS analysis
+#run NMDS analysis
 set.seed(123)
 nmds = metaMDS(m_com_bat, distance = "jaccard")
 nmds
 
-# See data distribution 
+#see data distribution 
 plot(nmds)
 ordiplot (nmds, type = "t")
 
 #extract NMDS scores (x and y coordinates)
 data.scores = as.data.frame(scores(nmds)$sites)
 
-# add site information
+#add site information
 data.scores$Site = porifera_bat$Site
 data.scores$Local = porifera_bat$Local
 head (data.scores)
@@ -136,36 +129,26 @@ nmds_bat_plot = ggplot(data.scores, aes(x = NMDS1, y = NMDS2)) +
 nmds_bat_plot
 dev.off()
 
-##################
-##################
-##### ANOSIM #####
-##################
-##################
 
-#ANOSIM #anosim necessita de replicas por localidades
+##### ANOSIM #####
+
+#anosim needs replicas by locations
 ano = anosim(m_com_bat, porifera_bat$Local, distance = "jaccard", permutations = 9999)
 ano
 
-############################################################### localidades #####################################################################
+#-------------------------------------localidades---------------------------------------
 
-### input file
 porifera_reg <- read.csv('nmds_por_reg.csv', header = T, row.names = 1)
 str (porifera_reg)
 head(porifera_reg)
 
 
 ### transform data into a matrix w/ presence absence information
-
-# fish.matrix<-as.matrix(fish)
 com_reg = porifera_reg[,3:ncol(porifera_reg)]
 m_com_reg = as.matrix(com_reg)
 
 
-######################
-######################
 ##### dendrogram #####
-######################
-######################
 
 clust_reg<-vegdist (m_com_reg, method = "jaccard")
 hc_reg <- hclust(clust_reg, method = "average")
@@ -182,15 +165,13 @@ tiff(file = "dendogram_reg.tiff", width=10, heigh=10,
 fviz_dend(hc_reg, cex = 1.5, main = "", lwd = 1.5, ylab = "")
 dev.off()
 
-##input file with Site
+#input file with Site
 porifera_reg <- read.csv('nmds_por_reg.csv', header = T)
 str (porifera_reg)
 head(porifera_reg)
 
 
 ### transform data into a matrix w/ presence absence information
-
-# fish.matrix<-as.matrix(fish)
 com_reg = porifera_reg[,3:ncol(porifera_reg)]
 m_com_reg = as.matrix(com_reg)
 
@@ -217,31 +198,26 @@ m_com_reg = as.matrix(com_reg)
 #          type = "phylogenic", repel = TRUE, main = "", lwd = 1.5, ylab = "")
 
 
-###############
-###############
 ##### NMDS ####
-###############
-###############
 
-# run NMDS analysis
+#run NMDS analysis
 set.seed(123)
 nmds = metaMDS(m_com_reg, distance = "jaccard")
 nmds
 
-# See data distribution 
+#see data distribution 
 plot(nmds)
 ordiplot (nmds, type = "t")
 
 #extract NMDS scores (x and y coordinates)
 data.scores = as.data.frame(scores(nmds)$sites)
 
-# add site information
+#add site information
 data.scores$Site = porifera_reg$Site
 data.scores$Local = porifera_reg$Local
 head (data.scores)
 
 #plot NMDS in ggplot2
-
 tiff(file = "nmds_porifera_reg.tiff", width=10, heigh=8, 
      unit="in",res = 300, compression="lzw")
 nmds_reg_plot = ggplot(data.scores, aes(x = NMDS1, y = NMDS2)) + 
@@ -261,12 +237,9 @@ nmds_reg_plot = ggplot(data.scores, aes(x = NMDS1, y = NMDS2)) +
 nmds_reg_plot
 dev.off()
 
-##################
-##################
-##### ANOSIM #####
-##################
-##################
 
-#ANOSIM #anosim necessita de replicas por localidades
+##### ANOSIM #####
+
+#anosim needs replicas by locations
 ano = anosim(m_com_reg, porifera_reg$Local, distance = "jaccard", permutations = 9999)
 ano
