@@ -60,7 +60,7 @@ axis(side = 3, at = 1:44, lab = rownames(dna), las = 3, cex.axis = .5)
 dev.off()
 
 
-#--------------------------------árvore filogenética---------------------------------- 
+#--------------------------------phylogenetic tree---------------------------------- 
 
 ############ Maximum Likelihood-based ###############
 # The Maximum Likelihood (ML) method is a statistical principle used to estimate the 
@@ -155,7 +155,7 @@ axis(side = 3, at = 1:43, lab = rownames(dna), las = 3, cex.axis = .5)
 dev.off()
 
 
-#--------------------------------árvore filogenética---------------------------------- 
+#--------------------------------phylogenetic tree---------------------------------- 
 
 #data
 dna1_18s <- read.phyDat("porifera_18s_alinhado_arvgen_grupoexterno.fasta", format = "fasta")
@@ -217,7 +217,7 @@ axis(side = 3, at = 1:43, lab = rownames(dna), las = 3, cex.axis = .5)
 dev.off()
 #talvez tenha que mudar at dos axis
 
-#--------------------------------árvore filogenética---------------------------------- 
+#--------------------------------phylogenetic tree---------------------------------- 
 
 #data 
 dna1_28s <- read.phyDat("porifera_28s_alinhado_arvgen_grupoexterno.fasta", format = "fasta")
@@ -230,7 +230,7 @@ fit_28s <- as.pml(mt_28s, "BIC")
 fit_mt_28s <- pml_bb(mt_28s, control = pml.control(trace = 0))
 fit_mt_28s
 
-fitTIM_28s <- pml_bb(dna1_28s, model="TrN+G(4)+I") #colocar o modelo fornecido
+fitTIM_28s <- pml_bb(dna1_28s, model="TrN+G(4)+I") 
 
 bs_28s <- bootstrap.pml(fit_mt_28s, bs=1000, optNni=TRUE,
                         control = pml.control(trace = 0))
