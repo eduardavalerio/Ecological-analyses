@@ -110,15 +110,15 @@ fitTIM_coi <- pml_bb(dna1_coi, model="TPM3u+G(4)")
 bs_coi <- bootstrap.pml(fit_mt_coi, bs=1000, optNni=TRUE,
                     control = pml.control(trace = 0))
 
-plotBS(midpoint(fit_mt_coi$tree), bs_coi, p = 70, type="p", main="Standard bootstrap")
+plot_coi <- plotBS(midpoint(fit_mt_coi$tree), bs_coi, p = 70, type="p", main="Standard bootstrap")
 
 
 ### save tree
-tree_coi <- write.tree(fit_mt_coi$tree, "porifera_coi.tree")
+write.tree(fit_mt_coi$tree, "porifera_coi.tree")
 
 #save tree as tiff image
 tiff("arvore_porifera_coi.tiff", width = 20, height = 10, units = 'in', res = 300)
-plot(tree_coi) # Make plot
+plot(plot_coi) # Make plot
 dev.off()
 
 
