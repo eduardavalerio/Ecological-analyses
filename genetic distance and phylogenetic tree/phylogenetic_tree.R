@@ -148,10 +148,10 @@ temp1_18s <- temp1_18s[,ncol(temp1_18s):1]
 tiff(file = "distancia_genetica_porifera_18s.tiff", width=10, heigh=8, 
      unit="in",res = 600, compression="lzw")
 par(mar = c(2,7,7,2))
-image(x = 1:44, y = 1:44, temp1, col = rev(viridisLite::viridis(100)),
+image(x = 1:44, y = 1:44, temp1_18s, col = rev(viridisLite::viridis(100)),
       xaxt = "n", yaxt = "n", xlab="",ylab="")
-axis(side = 2, at = 1:43, lab = rev(rownames(dna)), las = 2, cex.axis = .5)
-axis(side = 3, at = 1:43, lab = rownames(dna), las = 3, cex.axis = .5)
+axis(side = 2, at = 1:43, lab = rev(rownames(dna_18s)), las = 2, cex.axis = .5)
+axis(side = 3, at = 1:43, lab = rownames(dna_18s), las = 3, cex.axis = .5)
 dev.off()
 
 
