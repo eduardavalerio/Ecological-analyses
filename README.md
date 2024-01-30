@@ -3,7 +3,7 @@ __Eduarda Valério de Jesus__
 
 📧 eduarda.jesus@usp.br
 
-# Project
+# Project #2022/14631-1
 
 I'm working with DNA barcode of marine species of Porifera using their sequences cataloged in public genetic sequence databases such as National Center of Biotechnology Information (NCBI), 
 Barcode of Life Data System (BOLD System) and SILVA ribosomal RNA database (SILVA database). Basis for future research with DNA Metabarcoding as a method of monitoring biodiversity. 
