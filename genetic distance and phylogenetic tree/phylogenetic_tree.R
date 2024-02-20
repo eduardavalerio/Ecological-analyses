@@ -110,7 +110,7 @@ fitTIM_coi <- pml_bb(dna1_coi, model="TPM3u+G(4)")
 bs_coi <- bootstrap.pml(fit_mt_coi, bs=1000, optNni=TRUE,
                     control = pml.control(trace = 0))
 
-plot_coi <- plotBS(midpoint(fit_mt_coi$tree), bs_coi, p = 70, type="p", main="Standard bootstrap")
+plot_coi <- plotBS(midpoint(fit_mt_coi$tree), bs_coi, p = 70, type="p", main="Phylogenetic tree of sponges - COI")
 
 
 ### save tree
@@ -172,7 +172,7 @@ fitTIM_18s <- pml_bb(dna1_18s, model="TrN+G(4)+I")
 bs_18s <- bootstrap.pml(fit_mt_18s, bs=1000, optNni=TRUE,
                         control = pml.control(trace = 0))
 
-plotBS(midpoint(fit_mt_18s$tree), bs_18s, p = 70, type="p", main="Standard bootstrap")
+plotBS(midpoint(fit_mt_18s$tree), bs_18s, p = 70, type="p", main="Phylogenetic tree of sponges - 18s")
 
 
 ### save tree
@@ -234,7 +234,7 @@ fitTIM_28s <- pml_bb(dna1_28s, model="TrN+G(4)+I")
 bs_28s <- bootstrap.pml(fit_mt_28s, bs=1000, optNni=TRUE,
                         control = pml.control(trace = 0))
 
-plotBS(midpoint(fit_mt_28s$tree), bs_28s, p = 70, type="p", main="Standard bootstrap")
+plotBS(midpoint(fit_mt_28s$tree), bs_28s, p = 70, type="p", main="Phylogenetic tree of sponges - 28s")
 
 
 ###save tree
