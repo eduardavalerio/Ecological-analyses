@@ -1,0 +1,155 @@
+Ordem,Família ,Gênero ,Espécie ,COI NCBI,BOLD (COI),SILVA (18S),18s NCBI ,28s NCBI,Localização ,Referência ,,,,,
+-,-,-,Calcarea sp.  (classe),0,0,0,0,0,Canal de São Sebastião ,Custódio et al. 2011,,,COI,18s,28s
+Clathrinida ,Clathrinidae ,Arturia,Arturia alcatraziensis,0,0,0,0,0,Alcatrazes,Custódio et al. 2011; Lanna et al. 2007,,Clathrinidae ,0,8,6
+Clathrinida ,Clathrinidae ,Clathrina,Clathrina aurea ,0,0,0,1,1,"Canal de São Sebastião, Ilhabela, Alcatrazes ",Custódio et al. 2011; Lanna et al. 2007,,Leucascidae ,0,0,0
+Clathrinida ,Clathrinidae ,Clathrina,Clathrina conifera ,0,0,0,1,1,Alcatrazes,Custódio et al. 2011; Lanna et al. 2007,,Amphoriscidae ,0,2,1
+Clathrinida ,Clathrinidae ,Clathrina,Clathrina primordialis ,0,0,0,1,1,Ubatuba,Custódio et al. 2011; Lanna et al. 2007,,Grantiidae ,0,1,1
+Clathrinida ,Clathrinidae ,Clathrina,Clathrina sp. ,0,0,1,1,1,Canal de São Sebastião ,Custódio et al. 2011,,Leucosoleniidae ,0,2,1
+Clathrinida ,Clathrinidae ,Clathrina,Clathrina tetractina ,0,0,0,1,1,Canal de São Sebastião ,Custódio et al. 2011; Lanna et al. 2007,,Sycettidae ,0,1,1
+Clathrinida ,Clathrinidae ,Clathrina,Clathrina blanca,0,0,1,1,1,Ubatuba,Custódio et al. 2011,,Ancorinidae ,2,2,0
+Clathrinida ,Leucascidae ,Leucascus,Leucascus roseus ,0,0,0,0,0,Alcatrazes,Custódio et al. 2011; Lanna et al. 2007,,Geodiidae  ,8,4,4
+Leucosolenida ,Amphoriscidae ,Paraleucilla,Paraleucilla magna ,0,0,1,1,1,"Canal de São Sebastião, Ilhabela",Custódio et al. 2011,,Pachastrellidae ,3,0,1
+Leucosolenida ,Grantiidae ,Grantia ,Grantia sp.,0,0,0,1,1,Plataforma ,Custódio et al. 2011; Hajdu et al. 2007,,Siphonidiidae ,0,0,1
+Leucosolenida ,Leucosoleniidae ,Leucosolenia,Leucosolenia sp.,0,0,1,1,1,Plataforma ,Custódio et al. 2011; Hajdu et al. 2007,,Tetillidae ,3,6,3
+Leucosolenida ,Sycettidae ,Sycon,Sycon pentactinale,0,0,0,0,0,Canal de São Sebastião ,Custódio et al. 2011,,Thrombidae ,0,0,0
+Leucosolenida ,Sycettidae ,Sycon,Sycon sp. ,0,0,0,1,1,Canal de São Sebastião ,Custódio et al. 2011,,Chondrillidae,4,4,2
+-,-,-,Keratosa sp. (subclasse),0,0,0,0,0,Canal de São Sebastião ,Custódio et al. 2011,,Darwinellidae,3,2,1
+Tetractinellida,Ancorinidae ,-,Tetractinellida sp.,0,0,0,0,0,Canal de São Sebastião ,Custódio et al. 2011,,Dysideidae,2,6,2
+Tetractinellida,Ancorinidae ,Asteropus ,Asteropus brasiliensis ,0,0,0,0,0,"Canal de São Sebastião, Ilhabela, Alcatrazes ",Custódio et al. 2011,,Spongiidae ,0,0,0
+Tetractinellida,Ancorinidae ,Stelletta ,Stelletta beae ,0,0,0,0,0,Canal de São Sebastião,Custódio et al. 2011,,Clionaidae ,3,4,2
+Tetractinellida,Ancorinidae ,Stelletta ,Stelletta sp. ,1,1,1,1,0,"Canal de São Sebastião, Plataforma ",Custódio et al. 2011; Hajdu et al. 2007,,Polymastiidae,6,1,2
+Tetractinellida,Geodiidae  ,Erylus,Erylus soesti ,0,0,0,0,0,Plataforma ,Custódio et al. 2011,,Suberitidae ,3,3,2
+Tetractinellida,Geodiidae  ,Geodia ,Geodia corticostylifera ,1,1,0,0,1,"Canal de São Sebastião, Ilhabela",Custódio et al. 2011,,Halichondriidae ,5,5,3
+Tetractinellida,Geodiidae  ,Geodia ,Geodia gibberosa ,1,1,1,1,1,Canal de São Sebastião ,Custódio et al. 2011,,Tethyidae ,0,0,0
+Tetractinellida,Geodiidae  ,Geodia ,Geodia glariosa ,0,0,0,0,0,Canal de São Sebastião,Custódio et al. 2011,,Timeidae ,2,2,1
+Tetractinellida,Geodiidae  ,Geodia ,Geodia papyracea,1,1,0,0,1,Canal de São Sebastião,Custódio et al. 2011,,Trachycladidae ,0,2,1
+Tetractinellida,Geodiidae  ,Geodia ,Geodia sp. ,1,1,1,1,1,"Canal de São Sebastião, Plataforma ",Custódio et al. 2011; Hajdu et al. 2007,,Axinellidae ,3,5,2
+Tetractinellida,Pachastrellidae ,Characella ,Characella pachastrelloides ,1,1,0,0,1,Plataforma ,Custódio et al. 2011; Hajdu et al. 2007,,Heteroxyidae ,0,0,0
+Tetractinellida,Pachastrellidae ,Pachastrella ,Pachastrella monilifera ,0,1,0,0,0,Plataforma ,Custódio et al. 2011; Hajdu et al. 2007,,Raspailiidae ,0,2,1
+Tetractinellida,Pachastrellidae ,Vulcanella,Vulcanella sp. ,0,0,0,0,0,Plataforma ,Custódio et al. 2011; Hajdu et al. 2007,,Bubaridae ,1,0,1
+Tetractinellida,Siphonidiidae ,Gastrophanella ,Gastrophanella sp. ,0,0,0,0,1,Plataforma ,Custódio et al. 2011; Hajdu et al. 2007,,Dictyonellidae ,2,3,2
+Tetractinellida,Tetillidae ,Cinachyra ,Cinachyra sp. ,1,1,1,1,0,"Ubatuba, Plataforma ",Custódio et al. 2011; Hajdu et al. 2007,,Desmanthidae ,0,0,0
+Tetractinellida,Tetillidae ,Cinachyrella,Cinachyrella alloclada ,0,1,1,1,1,"Ubatuba, Canal de São Sebastião ",Custódio et al. 2011,,Callyspongiidae ,2,2,1
+Tetractinellida,Tetillidae ,Tetilla,Tetilla radiata ,0,0,0,0,1,"Ubatuba, Canal de São Sebastião, Ilhabela ",Custódio et al. 2011,,Chalinidae ,7,3,2
+Tetractinellida,Tetillidae ,Tetilla,Tetilla sp. ,0,0,0,0,0,Plataforma (off Cananéia),Custódio et al. 2011,,Niphatidae ,1,1,1
+Tetractinellida,Tetillidae ,Craniella ,Craniella sp. ,0,0,1,1,1,Plataforma (off Cananéia),Custódio et al. 2011,,Petrosiidae ,1,2,1
+Chondrillida,Thrombidae ,Thrombus ,Thrombus sp. ,0,0,0,0,0,Plataforma ,Custódio et al. 2011; Hajdu et al. 2007,,Phloeodictyidae ,0,0,0
+Chondrillida,Chondrillidae,Chondrilla ,Chondrilla nucula ,1,1,1,1,1,"Ubatuba, Canal de São Sebastião, Ilhabela ",Custódio et al. 2011,,Coelosphaeridae ,4,6,2
+Chondrillida,Chondrillidae,Chondrilla ,Chondrosia reniformis ,1,1,1,1,1,Canal de São Sebastião,Custódio et al. 2011,,Crambeidae ,1,2,1
+Dendroceratida ,Darwinellidae,Aplysilla,Aplysilla rosea ,0,0,0,0,0,Canal de São Sebastião ,Custódio et al. 2011,,Crellidae ,0,0,0
+Dendroceratida ,Darwinellidae,Aplysilla,Aplysilla sp.,0,0,0,0,1,Canal de São Sebastião ,Custódio et al. 2011,,Esperiopsidae ,0,0,0
+Dendroceratida ,Darwinellidae,Chelonaplysilla ,Chelonaplysilla erecta ,1,1,1,1,0,"Canal de São Sebastião, Ilhabela ",Custódio et al. 2011,,Guitarridae ,0,0,0
+Dendroceratida ,Darwinellidae,Darwinella ,Darwinella rosacea ,0,1,0,0,0,Canal de São Sebastião ,Custódio et al. 2011,,Latrunculiidae ,0,0,0
+Dictyoceratida ,Dysideidae,Dysidea,Dysidea etheria ,0,0,1,1,1,"Canal de São Sebastião, Ilhabela ",Custódio et al. 2011,,Microcionidae ,2,4,1
+Dictyoceratida ,Dysideidae,Dysidea,Dysidea janiae ,0,0,1,1,0,Canal de São Sebastião ,Custódio et al. 2011,,Mycalidae ,3,8,1
+Dictyoceratida ,Dysideidae,Dysidea,Dysidea sp.,1,1,1,1,1,"Canal de São Sebastião, Alcatrazes ",Custódio et al. 2011,,Myxillidae ,2,0,0
+Dictyoceratida ,Dysideidae,Euryspongia ,Euryspongia rosea ,0,0,0,0,0,Alcatrazes,Custódio et al. 2011,,Tedaniidae ,2,4,2
+Dictyoceratida ,Spongiidae ,Spongia ,Spongia catarinensis ,0,0,0,0,0,Canal de São Sebastião ,Custódio et al. 2011,,Desmacellidae,0,3,1
+Hadromerida,-,-,Hadromerida sp. (ordem),0,1,0,0,0,Canal de São Sebastião ,Custódio et al. 2011,,Hamacanthidae ,0,0,0
+Clionaida,Clionaidae ,Cliona,Cliona celata ,1,1,1,1,1,"Canal de São Sebastião, Plataforma (off Ilhabela)",Custódio et al. 2011; Hajdu et al. 2007,,Rhabderemiidae,0,0,0
+Clionaida,Clionaidae ,Cliona,Cliona dioryssa ,0,0,0,0,0,"Canal de São Sebastião, Ilhabela ",Custódio et al. 2011,,Aplysinidae ,4,5,2
+Clionaida,Clionaidae ,Cliona,Cliona sp.,0,1,1,1,1,"Canal de São Sebastião, Plataforma ",Custódio et al. 2011; Hajdu et al. 2007,,Hyalonematidae ,2,2,1
+Polymastiida,Polymastiidae,Polymastia ,Polymastia janeirensis ,1,1,0,0,0,Canal de São Sebastião ,Custódio et al. 2011,,,,,
+Polymastiida,Polymastiidae,Polymastia ,Polymastia sp.,1,1,0,1,1,Plataforma ,Custódio et al. 2011; Hajdu et al. 2007,,,,,
+Polymastiida,Polymastiidae,Radiella ,Radiella sp. ,1,1,0,0,1,Plataforma (off Cananéia),Custódio et al. 2011,,,,,
+Suberitida,Suberitidae ,Aaptos ,Aaptos sp.,0,0,0,0,1,Canal de São Sebastião,Custódio et al. 2011,,,,,
+Suberitida,Suberitidae ,Suberites ,Suberites aurantiacus ,0,1,1,1,1,Canal de São Sebastião,Custódio et al. 2011,,,,,
+Suberitida,Suberitidae ,Suberites ,Suberites caminatus ,1,1,0,0,0,Plataforma (off Ubatuba),Custódio et al. 2011,,,,,
+Suberitida,Suberitidae ,Terpios ,Terpios fugax,0,0,0,0,0,Canal de São Sebastião ,Custódio et al. 2011,,,,,
+Suberitida,Suberitidae ,Terpios ,Terpios sp.,0,0,0,1,0,Canal de São Sebastião ,Custódio et al. 2011,,,,,
+Suberitida,Halichondriidae ,Amorphinopsis,Amorphinopsis atlantica ,0,0,0,0,0,"Canal de São Sebastião, Ilhabela",Custódio et al. 2011,,,,,
+Suberitida,Halichondriidae ,Ciocalypta,Ciocalypta alba ,0,0,0,0,0,"Canal de São Sebastião, Ilhabela ",Custódio et al. 2011,,,,,
+Suberitida,Halichondriidae ,Halichondria ,Halichondria (Halichondria) cebimarensis ,0,0,0,0,0,Canal de São Sebastião ,Custódio et al. 2011,,,,,
+Suberitida,Halichondriidae ,Halichondria ,Halichondria (Halichondria) migottea ,0,0,0,0,0,Canal de São Sebastião ,Custódio et al. 2011,,,,,
+Suberitida,Halichondriidae ,Halichondria ,Halichondria (Halichondria) sulfurea ,0,0,0,0,0,"Ubatuba, Canal de São Sebastião, Ilhabela ",Custódio et al. 2011,,,,,
+Suberitida,Halichondriidae ,Halichondria ,Halichondria (Halichondria) tenebrica ,0,0,0,0,0,Canal de São Sebastião ,Custódio et al. 2011,,,,,
+Suberitida,Halichondriidae ,Halichondria ,Halichondria sp. ,1,1,1,1,1,Plataforma,Custódio et al. 2011,,,,,
+Suberitida,Halichondriidae ,Hymeniacidon,Hymeniacidon heliophila ,1,1,0,1,1,Canal de São Sebastião ,Custódio et al. 2011,,,,,
+Suberitida,Halichondriidae ,Topsentia ,Topsentia sp. ,0,1,1,1,1,Plataforma ,Custódio et al. 2011; Hajdu et al. 2007,,,,,
+Tethyida,Tethyidae ,Halicometes ,Halicometes minuta ,0,0,0,0,0,Plataforma ,Custódio et al. 2011; Hajdu et al. 2007,,,,,
+Tethyida,Tethyidae ,Tethya,Tethya diploderma ,0,0,0,0,0,São Paulo (citação)*,Custódio et al. 2011,,,,,
+Tethyida,Tethyidae ,Tethya,Tethya maza ,0,0,0,0,0,Canal de São Sebastião ,Custódio et al. 2011,,,,,
+Tethyida,Timeidae ,Timea ,Timea authia ,0,0,0,0,0,São Paulo (citação)*,Custódio et al. 2011,,,,,
+Tethyida,Timeidae ,Timea ,"Timea n.sp. 1 (""Timea brasiliensis"")",0,0,0,0,0,"Canal de São Sebastião, Ilhabela",Custódio et al. 2011,,,,,
+Tethyida,Timeidae ,Timea ,"Timea n.sp. 2 (""Timea garoupai"")",0,0,0,0,0,Plataforma (off Ilhabela) ,Custódio et al. 2011,,,,,
+Tethyida,Timeidae ,Timea ,"Timea n.sp. 3 (""Timea magnisphaera"")",0,0,0,0,0,Ubatuba ,Custódio et al. 2011,,,,,
+Tethyida,Timeidae ,Timea ,"Timea n.sp. 4 (""Timea quadriradiata"")",0,0,0,0,0,Canal de São Sebastião ,Custódio et al. 2011,,,,,
+Tethyida,Timeidae ,Timea ,"Timea n.sp. 5 (""Timea sulcata"")",0,0,0,0,0,"Canal de São Sebastião, Ilhabela ",Custódio et al. 2011,,,,,
+Tethyida,Timeidae ,Timea ,"Timea n.sp. 6 (""Timea verrucosa"")",0,0,0,0,0,"Canal de São Sebastião, Ilhabela ",Custódio et al. 2011,,,,,
+Tethyida,Timeidae ,Timea ,Timea sp. ,1,1,1,1,1,Plataforma ,Custódio et al. 2011; Hajdu et al. 2007,,,,,
+Tethyida,Timeidae ,Timea ,Timea stellata ,0,0,0,0,0,Canal de São Sebastião ,Custódio et al. 2011,,,,,
+Trachycladida,Trachycladidae ,Trachycladus ,Trachycladus sp. ,0,0,1,1,1,Canal de São Sebastião ,Custódio et al. 2011,,,,,
+Axinellida,Axinellidae ,-,Axinellidae sp. (família),0,0,1,1,1,Ilhabela ,Custódio et al. 2011,,,,,
+Axinellida,Axinellidae ,Axinella,Axinella corrugata ,0,1,1,1,1,"Canal de São Sebastião, Ilhabela ",Custódio et al. 2011,,,,,
+Axinellida,Axinellidae ,Dragmacidon,Dragmacidon reticulatum ,0,0,0,1,0,"Ubatuba, Canal de São Sebastião, Alcatrazes ",Custódio et al. 2011,,,,,
+Axinellida,Axinellidae ,Dragmaxia ,Dragmaxia anomala ,0,0,0,0,0,"Canal de São Sebastião, Ilhabela ",Custódio et al. 2011,,,,,
+Axinellida,Axinellidae ,Ptilocaulis,Ptilocaulis marquezi ,1,1,0,0,0,Canal de São Sebastião ,Custódio et al. 2011,,,,,
+Axinellida,Heteroxyidae ,Higginsia,Higginsia strigilata ,0,0,0,0,0,Canal de São Sebastião ,Custódio et al. 2011,,,,,
+Axinellida,Raspailiidae ,Aulospongus,Aulospongus sp. ,0,0,1,1,1,Canal de São Sebastião,Custódio et al. 2011,,,,,
+Axinellida,Raspailiidae ,Raspaciona,Raspaciona sp. ,0,0,0,0,0,Plataforma ,Custódio et al. 2011; Hajdu et al. 2007,,,,,
+Axinellida,Raspailiidae ,Raspailia ,Raspailia (Raspaxilla) bouryesbautae ,0,0,0,0,0,"Canal de São Sebastião, Ilhabela, Plataforma (off Ubatuba)",Custódio et al. 2011,,,,,
+Axinellida,Raspailiidae ,Raspailia ,Raspailia (Raspaxilla) phakellina ,0,0,0,0,0,Plataforma,Custódio et al. 2011; Hajdu et al. 2007,,,,,
+Axinellida,Raspailiidae ,Raspailia ,Raspailia (Parasyringella) sp.,0,0,0,0,0,Plataforma,Custódio et al. 2011; Hajdu et al. 2007,,,,,
+Bubarida,Bubaridae ,Bubaris ,Bubaris sp. ,0,1,0,0,1,Plataforma ,Custódio et al. 2011; Hajdu et al. 2007,,,,,
+Bubarida,Dictyonellidae ,Scopalina,Scopalina ruetzleri ,1,1,1,1,1,"Ubatuba, Canal de São Sebastião ",Custódio et al. 2011,,,,,
+Bubarida,Dictyonellidae ,Scopalina,Scopalina hispida ,0,0,0,1,1,Ilhabela ,Custódio et al. 2011,,,,,
+Bubarida,Desmanthidae ,Desmanthus ,Desmanthus meandroides ,0,0,0,0,0,"Canal de São Sebastião, Ilhabela ",Custódio et al. 2011,,,,,
+Bubarida,Desmanthidae ,Petromica ,Petromica (Chaladesma) citrina ,0,0,0,0,0,"Canal de São Sebastião, Ilhabela ",Custódio et al. 2011,,,,,
+,-,-,Haplosclerida sp. (ordem),0,0,1,1,0,Canal de São Sebastião ,Custódio et al. 2011,,,,,
+Haplosclerida ,Callyspongiidae ,Callyspongia,Callyspongia (Callyspongia) pallida ,0,0,0,0,0,"Canal de São Sebastião, Ilhabela ",Custódio et al. 2011,,,,,
+Haplosclerida ,Callyspongiidae ,Callyspongia,Callyspongia sp. ,1,1,1,1,1,Canal de São Sebastião ,Custódio et al. 2011,,,,,
+Haplosclerida ,Chalinidae ,Haliclona,Haliclona (Halichoclona) sp. ,1,1,0,0,1,Canal de São Sebastião ,Custódio et al. 2011,,,,,
+Haplosclerida ,Chalinidae ,Haliclona,Haliclona (Reniera) sp. ,1,0,0,0,0,Canal de São Sebastião ,Custódio et al. 2011,,,,,
+Haplosclerida ,Chalinidae ,Haliclona,Haliclona (Reniera) tubifera ,1,1,0,1,0,São Paulo (citação)*,Custódio et al. 2011,,,,,
+Haplosclerida ,Chalinidae ,Haliclona,Haliclona (Soestella) melana ,0,0,0,0,0,"Canal de São Sebastião, Ilhabela ",Custódio et al. 2011,,,,,
+Haplosclerida ,Chalinidae ,Haliclona,Haliclona sp. ,1,1,1,1,1,"Canal de São Sebastião, Plataforma ",Custódio et al. 2011,,,,,
+Haplosclerida ,Niphatidae ,Amphimedon,Amphimedon erina ,0,0,0,1,0,Ubatuba ,Custódio et al. 2011,,,,,
+Haplosclerida ,Niphatidae ,Amphimedon,Amphimedon viridis ,0,0,0,0,1,"Canal de São Sebastião, Ilhabela, Ubatuba ",Custódio et al. 2011,,,,,
+Haplosclerida ,Niphatidae ,Pachychalina,Pachychalina alcaloidifera ,0,1,0,0,0,"Ubatuba, Canal de São Sebastião, Ilhabela ",Custódio et al. 2011,,,,,
+Haplosclerida ,Petrosiidae ,Neopetrosia,Neopetrosia carbonaria ,0,1,1,1,1,Canal de São Sebastião ,Custódio et al. 2011,,,,,
+Haplosclerida ,Phloeodictyidae ,Oceanapia ,Oceanapia nodosa ,0,0,0,0,0,"Canal de São Sebastião, Ilhabela  ",Custódio et al. 2011,,,,,
+Haplosclerida ,Phloeodictyidae ,Pachypellina,Pachypellina sp. ,0,0,0,0,0,Plataforma ,Custódio et al. 2011; Hajdu et al. 2007,,,,,
+Poecilosclerida ,Coelosphaeridae ,Forcepia,Forcepia sp. ,0,0,1,1,1,Plataforma,Custódio et al. 2011; Hajdu et al. 2007,,,,,
+Poecilosclerida ,Coelosphaeridae ,Lissodendoryx,Lissodendoryx (Lissodendoryx) isodictyalis ,1,1,1,1,0,São Paulo (citação)*,Custódio et al. 2011,,,,,
+Poecilosclerida ,Coelosphaeridae ,Lissodendoryx,Lissodendoryx sp. ,1,1,1,1,1,Plataforma,Custódio et al. 2011; Hajdu et al. 2007,,,,,
+Poecilosclerida ,Crambeidae ,Monanchora ,Monanchora arbuscula ,0,1,1,1,1,"Canal de São Sebastião, Ilhabela ",Custódio et al. 2011,,,,,
+Poecilosclerida ,Crellidae ,Crella ,Crella (Yvesia) sp. ,0,0,0,0,0,Plataforma ,Custódio et al. 2011; Hajdu et al. 2007,,,,,
+Poecilosclerida ,Esperiopsidae ,Esperiopsis,Esperiopsis bathyalis ,0,0,0,0,0,Plataforma (off Guarujá),Custódio et al. 2011,,,,,
+Poecilosclerida ,Guitarridae ,Guitarra ,Guitarra sepia ,0,0,0,0,0,"Canal de São Sebastião, Ilhabela, Alcatrazes ",Custódio et al. 2011,,,,,
+Poecilosclerida ,Latrunculiidae ,Sceptrella ,Sceptrella sp. ,0,0,0,0,0,Plataforma,Custódio et al. 2011; Hajdu et al. 2007,,,,,
+Poecilosclerida ,Microcionidae ,Artemisina ,Artemisina aff. melana ,1,1,1,1,0,Canal de São Sebastião ,Custódio et al. 2011,,,,,
+Poecilosclerida ,Microcionidae ,Clathria ,Clathria (Microciona) campecheae ,0,0,0,0,0,"Canal de São Sebastião, Ilhabela ",Custódio et al. 2011,,,,,
+Poecilosclerida ,Microcionidae ,Clathria ,Clathria sp.,0,0,1,1,1,"Canal de São Sebastião, Plataforma ",Custódio et al. 2011; Hajdu et al. 2007,,,,,
+Poecilosclerida ,Mycalidae ,Mycale,Mycale (Aegogropila) americana,0,0,0,0,0,"Canal de São Sebastião, Ilhabela ",Custódio et al. 2011,,,,,
+Poecilosclerida ,Mycalidae ,Mycale,Mycale (Aegogropila) escarlatei ,0,0,0,0,0,"Canal de São Sebastião, Ilhabela ",Custódio et al. 2011,,,,,
+Poecilosclerida ,Mycalidae ,Mycale,Mycale (Aegogropila) lilianae ,0,0,0,0,0,"Ubatuba, Canal de São Sebastião ",Custódio et al. 2011,,,,,
+Poecilosclerida ,Mycalidae ,Mycale,Mycale (Arenochalina) laxissima ,0,1,1,1,0,"Canal de São Sebastião, Ilhabela ",Custódio et al. 2011,,,,,
+Poecilosclerida ,Mycalidae ,Mycale,Mycale (Carmia) magnirhaphidifera ,0,0,0,0,0,"Ubatuba, Canal de São Sebastião ",Custódio et al. 2011,,,,,
+Poecilosclerida ,Mycalidae ,Mycale,Mycale (Carmia) microsigmatosa ,0,0,1,1,0,"Canal de São Sebastião, Ilhabela ",Custódio et al. 2011,,,,,
+Poecilosclerida ,Mycalidae ,Mycale,Mycale (Mycale) beatrizae,0,0,0,0,0,Plataforma (off Ubatuba),Custódio et al. 2011; Hajdu et al. 2007,,,,,
+Poecilosclerida ,Mycalidae ,Mycale,Mycale (Naviculina) arcuiris,0,0,0,0,0,"Canal de São Sebastião, Ilhabela ",Custódio et al. 2011,,,,,
+Poecilosclerida ,Mycalidae ,Mycale,Mycale (Naviculina) purpurata,0,0,0,0,0,"Canal de São Sebastião, Ilhabela ",Custódio et al. 2011,,,,,
+Poecilosclerida ,Mycalidae ,Mycale,Mycale (Zygomycale) angulosa ,0,0,1,1,0,"Ubatuba, Canal de São Sebastião, Ilhabela, Guarujá",Custódio et al. 2011,,,,,
+Poecilosclerida ,Mycalidae ,Mycale,Mycale sp.,1,1,1,1,1,Canal de São Sebastião ,Custódio et al. 2011,,,,,
+Poecilosclerida ,Myxillidae ,Myxilla ,Myxilla (Ectyomyxilla) chilensis,0,0,0,0,0,Plataforma (off Ilhabela),Custódio et al. 2011; Hajdu et al. 2007,,,,,
+Poecilosclerida ,Myxillidae ,Myxilla ,Myxilla (Myxilla) mucronata ,0,0,0,0,0,Canal de São Sebastião,Custódio et al. 2011,,,,,
+Poecilosclerida ,Myxillidae ,Hymenancora ,Hymenancora tenuissima ,0,0,0,0,0,Plataforma,Custódio et al. 2011; Hajdu et al. 2007,,,,,
+Poecilosclerida ,Myxillidae ,Myxilla ,Myxilla sp. ,1,1,0,0,0,Canal de São Sebastião ,Custódio et al. 2011,,,,,
+Poecilosclerida ,Tedaniidae ,Tedania ,Tedania (Tedania) brasiliensis ,0,0,0,0,0,"Canal de São Sebastião, Ilhabela, Alcatrazes ",Custódio et al. 2011,,,,,
+Poecilosclerida ,Tedaniidae ,Tedania ,Tedania (Tedania) ignis ,1,1,1,1,1,"Ubatuba, Canal de São Sebastião ",Custódio et al. 2011,,,,,
+Poecilosclerida ,Tedaniidae ,Tedania ,Tedania (Trachytedania) biraphidora ,0,0,0,0,0,Off Ilhabela ,Custódio et al. 2011,,,,,
+Poecilosclerida ,Tedaniidae ,Tedania ,Tedania sp. ,0,0,1,1,1,Canal de São Sebastião ,Custódio et al. 2011,,,,,
+Desmacellida,Desmacellidae,Desmacella ,Desmacella aff. pumilio,0,0,1,1,0,Plataforma,Custódio et al. 2011; Hajdu et al. 2007,,,,,
+Desmacellida,Desmacellidae,Desmacella ,Desmacella annexa ,0,0,0,1,1,Plataforma,Custódio et al. 2011; Hajdu et al. 2007,,,,,
+Desmacellida,Desmacellidae,Desmacella ,Desmacella sp. ,0,0,0,0,0,Plataforma,Custódio et al. 2011; Hajdu et al. 2007,,,,,
+Merliida,Hamacanthidae ,Hamacantha ,Hamacantha (Hamacantha) microxifera ,0,0,0,0,0,Plataforma (off Guarujá),Custódio et al. 2011; Hajdu et al. 2007,,,,,
+Merliida,Hamacanthidae ,Hamacantha ,Hamacantha sp. 2 ,0,0,0,0,0,Plataforma,Custódio et al. 2011; Hajdu et al. 2007,,,,,
+Merliida,Hamacanthidae ,Hamacantha ,Hamacantha sp. 3,0,0,0,0,0,Plataforma,Custódio et al. 2011; Hajdu et al. 2007,,,,,
+Biemnida,Rhabderemiidae,Rhabderemia ,Rhabderemia besnardi ,0,0,0,0,0,Plataforma (off Bertioga),Custódio et al. 2011; Hajdu et al. 2007,,,,,
+Biemnida,Rhabderemiidae,Rhabderemia ,Rhabderemia uruguaiensis ,0,0,0,0,0,Plataforma (off Ilhabela e Bertioga),Custódio et al. 2011; Hajdu et al. 2007,,,,,
+Verongiida ,Aplysinidae ,Aplysina,Aplysina caissara ,0,0,0,1,0,"Ubatuba, Canal de São Sebastião, Ilhabela ",Custódio et al. 2011,,,,,
+Verongiida ,Aplysinidae ,Aplysina,Aplysina fulva ,1,1,1,1,1,Canal de São Sebastião ,Custódio et al. 2011,,,,,
+Verongiida ,Aplysinidae ,Aplysina,Aplysina sp. ,1,1,1,1,1,Canal de São Sebastião ,Custódio et al. 2011,,,,,
+Amphidiscosida ,Hyalonematidae ,Hyalonema,Hyalonema sp. ,1,1,1,1,1,Plataforma (off Cananéia),Custódio et al. 2011,,,,,
+,,,,35,47,47,62,57,,,,,,,
+,,,Porcentagem de cobertura ,"23,03","30,92","30,92","40,79","37,50",,,,,,,
