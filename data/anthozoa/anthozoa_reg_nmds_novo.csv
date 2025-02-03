@@ -1,0 +1,17 @@
+Site ,Local,Actinia bermudensis ,Anemonia sargassensis ,Anthopleura varioarmata ,Bunodosoma caissarum ,Bunodosoma cangicum ,Paracondylactis hertwigi ,Actinostella flosculifera,Paranthus rapiformis ,Exaiptasia diaphana,Alicia mirabilis ,Actinoporus elongatus,Diadumene lineata,Metapeachia sp. ,Calliactis tricolor ,Phymanthus crucifer,Carcinactis dolosa ,Tanacetipathes tanacetum,Ceriantheomorphe brasiliensis ,Caryophyllia (Caryophyllia) ambrosia caribbeana,Cladocora debilis ,Dasmosmilia lymani ,Dasmosmilia variegata ,Deltocyathus calcar ,Deltocyathus eccentricus ,Deltocyathus italicus ,Phyllangia americana ,Premocyathus cornuformis ,Trochocyathus sp. ,Desmophyllum pertusum,Enallopsammia rostrata ,Flabellum (Ulocyathus) apertum,Flabellum sp. ,Javania cailleti ,Fungiacyathus sp. ,Mussismilia hispida ,Schizocyathus fissilis ,Siderastrea stellata ,Guynia sp. ,Epizoanthus sp.,Savalia sp.,Palythoa caribaeorum ,Palythoa variabilis ,Zoanthus sociatus ,Zoanthus solanderi ,Bebryce cinerea ,Carijoa riisei,Ellisella elongata,Heterogorgia uatumani,Tripalea clavaria ,Leptogorgia setacea ,Leptogorgia punicea ,Renilla muelleri ,Renilla reniformis ,Stylatula brasiliensis,Stylatula diadema 
+SS,North,0,1,0,1,1,0,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,0,1,1,1,0,1,1,1,1,0,0
+IB,North,0,1,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,1,1,0,0,1,0,1,1,1,0,1,1,0,0
+CG,North,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,1,1,1,1,0,0
+UB,North,1,1,0,1,1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,0,1,1,1,1,0,0
+AL,North,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PN,North,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+IT,Central,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PG,Central,1,1,1,1,1,1,1,1,1,1,0,1,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+GJ,Central,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+BE,Central,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+SN,Central,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+PB,Central,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,1,0,1,0,0,1,1,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+QG,Central,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+CN,South,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+IC,South,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+PS,South,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,1,1,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

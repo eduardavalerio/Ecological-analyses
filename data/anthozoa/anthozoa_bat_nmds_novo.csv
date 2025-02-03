@@ -1,0 +1,12 @@
+Site ,Local,Actinia bermudensis ,Anemonia sargassensis ,Anthopleura varioarmata ,Bunodosoma caissarum ,Bunodosoma cangicum ,Paracondylactis hertwigi ,Actinostella flosculifera,Paranthus rapiformis ,Exaiptasia diaphana,Alicia mirabilis ,Actinoporus elongatus,Diadumene lineata,Metapeachia sp. ,Calliactis tricolor ,Phymanthus crucifer,Carcinactis dolosa ,Tanacetipathes tanacetum,Ceriantheomorphe brasiliensis ,Caryophyllia ambrosia caribbeana,Cladocora debilis ,Dasmosmilia lymani ,Dasmosmilia variegata ,Deltocyathus calcar ,Deltocyathus eccentricus ,Deltocyathus italicus ,Phyllangia americana ,Premocyathus cornuformis ,Trochocyathus sp. ,Desmophyllum pertusum,Enallopsammia rostrata ,Flabellum apertum ,Flabellum sp. ,Javania cailleti ,Fungiacyathus sp. ,Mussismilia hispida ,Schizocyathus fissilis ,Siderastrea stellata ,Guynia sp. ,Epizoanthus sp.,Savalia sp.,Palythoa caribaeorum ,Protopalythoa variabilis ,Zoanthus sociatus ,Zoanthus solanderi ,Bebryce cinerea ,Carijoa riisei,Ellisella elongata,Heterogorgia uatumani,Tripalea clavaria ,Leptogorgia setacea ,Leptogorgia punicea ,Renilla muelleri ,Renilla reniformis ,Stylatula brasiliensis,Stylatula diadema 
+0-20,Plataform,1,1,1,1,1,1,1,0,1,1,0,1,1,0,0,1,0,1,0,0,0,0,0,0,0,1,0,1,1,1,0,1,1,1,1,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+20-40,Plataform,0,1,1,0,0,1,1,0,0,1,0,1,0,0,0,1,0,1,1,0,0,0,0,0,1,1,0,1,1,1,0,1,0,1,1,0,1,0,1,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1,0
+40-60,Plataform,0,0,1,0,0,0,1,0,0,1,0,1,0,1,0,1,0,1,1,0,1,1,1,1,1,1,0,1,1,1,1,1,0,1,1,0,1,0,1,0,1,0,0,1,1,1,1,1,1,1,1,1,1,1,0
+60-80,Plataform,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,0,1,0,1,0,1,1,0,1,1,0,0,1,1,1,1,0,1,0,1,0,1,0,0,0,1,1,1,1,1,1,1,1,1,1,0
+80-100,Plataform,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,1,0,0,1,1,1,1,0,0,1,1,1,0,1,1,0,1,0,0,0,0,0,1,1,1,0,1,1,1,0,0,1,0
+100-120,Plataform,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,0,1,0,1,1,0,1,1,1,0,1,1,1,0,1,0,0,1,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0
+120-140,Plataform,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,1,0,0,1,1,1,1,1,0,1,1,1,0,1,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+140-160,Plataform,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,1,0,1,0,0,1,1,0,1,1,1,1,0,1,0,0,1,0,0,0,0,0,1,1,1,0,0,1,0,0,0,0,0
+160-180,Plataform,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,1,1,1,0,0,1,1,1,0,1,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+180-200,Plataform,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,0,1,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+>200,Oceanic,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,0,1,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0
