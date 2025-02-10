@@ -146,7 +146,7 @@ dev.off()
 ano = anosim(m_com_bat, porifera_bat$Local, distance = "jaccard", permutations = 9999)
 ano
 
-#-------------------------------------localidades---------------------------------------
+#-------------------------------------locations---------------------------------------
 
 porifera_reg <- read.csv('porifera_reg_nmds_novo.csv', header = T, row.names = 1)
 str (porifera_reg)
@@ -255,15 +255,3 @@ ano = anosim(m_com_reg, porifera_reg$Local, distance = "jaccard", permutations =
 ano
 
 sink()
-
-####### INDICATION SPECIES ANALYSIS 
-install.packages("indicspecies")
-library(indicspecies)
-pc_bat = read.csv("porifera_bat_nmds_novo.csv", header= TRUE)
-
-abund = pc_bat[,3:ncol(pc_bat)]
-time = pc_bat$Local
-
-inv = multipatt(abund, time, func = "r.g", control = how(nperm=9999))
-
-summary(inv)
