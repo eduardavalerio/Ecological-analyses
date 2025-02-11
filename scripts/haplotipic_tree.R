@@ -1,7 +1,7 @@
 ################################################################################    
 #       S1: R codes for phylogenetic analyses by using FASTA format file
 
-#	A workflow with RStudio: phylogenetic analyses and 
+#	      A workflow with RStudio: phylogenetic analyses and 
 #	      visualizations using mtDNA-Cytb sequences
 #		
 #	      Emine TOPARSLAN, Kemal KARABAG, Ugur BILGE
@@ -32,7 +32,6 @@
 #setwd("C:/Users/ugur/desktop/ileribiyoinformatik")
 setwd("C:/Users/usr/Documents")
 
-sink("18s-tree-anthozoa.txt")
 ###----------- INSTALL PACKAGES
 #If you have already them, you can skip this part (InstallPackages is set to FALSE by default)
 InstallPackages = T
@@ -55,10 +54,7 @@ if (InstallPackages) {
   install.packages("treeio")
   install.packages("geiger")
 }
-if (!require("BiocManager", quietly = TRUE))
-  install.packages("BiocManager")
 
-BiocManager::install("ggtree")
 library(adegenet)
 library(ape)
 library(ggtree)
@@ -94,7 +90,7 @@ library(stats)
 
 ###---------- input file
 
-fname = "anthozoa_18s_same_length_small.fasta" 
+fname = "file.fasta" 
 
 ###---------- The program reads fasta file and aligns it
 
@@ -116,6 +112,8 @@ cv<-msaConvert(cb, type=c("bios2mds::align"))
   
 ###----------- EXPORTING  ALIGNED FASTA FILE              
   
+Sys.setenv(RGL_USE_OPENGL = "FALSE")
+library(rgl)
   library(bios2mds) # for exporting fasta file
   
   export.fasta(cv, outfile = "outfile.fas", ncol(cb), open = "w")
@@ -178,8 +176,8 @@ class(nbin)
 
 dnbin<-dist.dna(nbin, model = "K80") 
 tree<-nj(dnbin)
-tiff(file = "tree_antozoa_16s_nj.tiff", width=10, heigh=8, 
-     unit="in",res = 600, compression="lzw")
+tiff(file = "tree_nj.tiff", width=8, heigh=15, 
+     unit="in",res = 600)
 ggt<-ggtree(tree, cex = 0.8, aes(color=branch.length))+
 scale_color_continuous(high='grey',low='black')+
 geom_tiplab(align=TRUE, size=2)+
@@ -194,8 +192,8 @@ ggt
 #However, you have to delete or fix the gaps to be able to do other analysis.
 #If you have big data set, you can modified "width" and "height" arguments below for better images.
 
-tiff(file = "tree_antozoa_16s_nj.tiff", width=10, heigh=8, 
-     unit="in",res = 600, compression="lzw")
+tiff(file = "tree_nj.tiff", width=10, heigh=5, 
+     unit="in",res = 600)
 njmsaplot<-msaplot(ggt, nbin, offset = 0.2, width=1.5, height = 0.6, 
             color = c(rep("grey", 1), rep("green", 1), rep("blue", 1), rep("black", 1), rep("yellow", 1),
             rep("red", 1)))
@@ -205,8 +203,8 @@ dev.off()
 
 ###---------- neighbor-joining tree estimation of Saitou and Nei (1987)
 
-tiff(file = "porifera_nj_coi_distance.tiff", width=10, heigh=8, 
-     unit="in",res = 600, compression="lzw")
+tiff(file = "nj_distance.tiff", width=10, heigh=8, 
+     unit="in",res = 600)
 njdistree<-ggtree(tree,layout = 'circular', branch.length='branch.length', aes(color=branch.length), lwd = 0.5)+xlim(-2, NA)+
   geom_tiplab(names(nbin), size = 3, offset=0.002)+scale_color_continuous(high='lightskyblue1',low='black')+
   geom_treescale(x=-2, color = "black", fontsize = 3, offset = 9) 
@@ -235,13 +233,13 @@ temp1_coi <- temp1_coi[,ncol(temp1_coi):1]
 
 
 #save graph on local directory
-tiff(file = "distancia_genetica_anthozoa_coi.tiff", width=10, heigh=8, 
-     unit="in",res = 600, compression="lzw")
-par(mar = c(2,7,7,2))
-image(x = 1:21, y = 1:21, temp1_coi, keep.dendro=TRUE, symm=TRUE, col = rev(viridisLite::viridis(100)),
+tiff(file = "distancia_genetica.tiff", width=10, heigh=8, 
+     unit="in",res = 600)
+par(mar = c(7,7,7,7))
+image(x = 1:19, y = 1:19, temp1_coi, keep.dendro=TRUE, symm=TRUE, col = rev(viridisLite::viridis(100)),
       xaxt = "n", yaxt = "n", xlab="",ylab="") #change the image size in x and y 1:A, with A being the number of sequences 
-axis(side = 2, at = 1:21, lab = rev(rownames(temp1_coi)), las = 2, cex.axis = .5) #change the at number for A 
-axis(side = 3, at = 1:21, lab = rownames(temp1_coi), las = 3, cex.axis = .5) #change the at number for A 
+axis(side = 2, at = 1:19, lab = rev(rownames(temp1_coi)), las = 2, cex.axis = .5) #change the at number for A 
+axis(side = 3, at = 1:19, lab = rownames(temp1_coi), las = 3, cex.axis = .5) #change the at number for A 
 dev.off()
 
 ########## calculate the Hamming distance from pegas package
@@ -257,4 +255,3 @@ tiff(file = "heatmap.tiff", width=10, heigh=8,
 heatmap(dhm,scale="none", col= heat.colors(100),keep.dendro=TRUE, symm=TRUE) #stats package
 dev.off()
 
-sink()
