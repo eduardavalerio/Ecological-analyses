@@ -1,8 +1,3 @@
-# Contact 
-__Eduarda Valério de Jesus__
-
-📧 eduarda.jesus@usp.br
-
 # Beta diversity, distribution, and representativeness of sequences of marine habitat-forming species from São Paulo, Brazil 🧬🪸🏝️
 
 I'm working with DNA barcode of marine habitat-forming species using their sequences cataloged in public genetic sequence databases, to complement the DNA Metabarcoding workflow as a method of monitoring biodiversity. 
@@ -15,3 +10,7 @@ This repository allows to reproduce the analyses that is perfored in `R` version
 
 :)
 
+### Contact 
+__Eduarda Valério de Jesus__
+
+📧 eduarda.jesus@usp.br
